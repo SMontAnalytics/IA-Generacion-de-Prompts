@@ -12,41 +12,41 @@ Un asistente inteligente que, mediante una única consulta optimizada, genera un
 
 Características Principales:
 
-Personalización Extrema: Basada en edad, nivel, objetivos y equipo disponible.
+* Personalización Extrema: Basada en edad, nivel, objetivos y equipo disponible.
 
-Generación Multimodal: Crea tanto el plan de texto como las imágenes explicativas en una sola llamada.
+* Generación Multimodal: Crea tanto el plan de texto como las imágenes explicativas en una sola llamada.
 
-Optimización de Costos: Uso de técnicas de One-Shot Fast Prompting.
+* Optimización de Costos: Uso de técnicas de One-Shot Fast Prompting.
 
 🛠️ Tecnologías Utilizadas
 
-Lenguaje: Python 3.x
+* Lenguaje: Python 3.x
 
-IA: Google Gemini API (Modelo gemini-2.5-flash-image-preview)
+* IA: Google Gemini API (Modelo gemini-2.5-flash-image-preview)
 
-Entorno: Google Colab / Jupyter Notebooks
+* Entorno: Google Colab / Jupyter Notebooks
 
-Librerías: google-generativeai, Pillow, IPython
+* Librerías: google-generativeai, Pillow, IPython
 
 🧠 Estrategia de Fast Prompting
 
 Para asegurar la rentabilidad, implementamos:
 
-Persona Pattern: Definimos un rol experto para la IA desde el inicio.
+* Persona Pattern: Definimos un rol experto para la IA desde el inicio.
 
-One-Shot Tasking: Agrupamos la recolección de datos y la generación de contenido (texto e imagen) en un solo bloque.
+* One-Shot Tasking: Agrupamos la recolección de datos y la generación de contenido (texto e imagen) en un solo bloque.
 
-Output Structuring: Forzamos respuestas en Markdown para facilitar la integración en interfaces de usuario.
+* Output Structuring: Forzamos respuestas en Markdown para facilitar la integración en interfaces de usuario.
 
 📊 Resultados Esperados
 
-Al ingresar los datos del usuario, el sistema devuelve:
+* Al ingresar los datos del usuario, el sistema devuelve:
 
-Un mensaje motivacional.
+* Un mensaje motivacional.
 
-Rutina detallada por días con series y repeticiones.
+* Rutina detallada por días con series y repeticiones.
 
-Imágenes generadas por IA que muestran la ejecución correcta de los ejercicios.
+* Imágenes generadas por IA que muestran la ejecución correcta de los ejercicios.
 
 📝 Conclusiones
 
